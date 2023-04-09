@@ -1,5 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@700&family=Cinzel+Decorative:wght@900&family=Delicious+Handrawn&family=Oswald&display=swap');
 body {
-    color:salmon;
-    text-align: center;
-    font-family: 'Arial';
+    display: flex;
+    background-color: rgb(206, 206, 206);
+    font-family: 'Oswald', sans-serif;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;}
+
+#a {    
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    background-color:rgb(174, 189, 202) ;
+    width: 99vi;
+    padding-top: 10px;
 }
+.banner {
+    padding-left: 320px;
+    display: flex;
+    justify-content: center;
+}
+
+#menu {
+
+    background-color:rgb(245, 239, 230) ;
+    display: flex;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    width: 900px;
+    height: 70px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    color: rgb(0, 0, 0);
+    padding-right: 20px;
+    font-size: 18px;
+}
+#menu img {
+    height: 60px;
+    width: 82px;
+}
+.headlines {
+    background-color:rgb(120, 149, 178) ;
+    box-shadow: 0px 2px 20px 0px rgba(0,0,0,0.5);
+    width: 80vi;
+    justify-content: space-evenly;
+    display: flex;
+}
+#info {
+    display: flex;
+    background-color:rgb(120, 149, 178) ;
+    justify-content: space-around;    
+    width: 99vi;
+    border-left-width: 10px;
+    padding-left: 600px;
+    padding-right: 600px;
+    box-sizing: border-box;
+}
+#info img {
+
+    height: 30px;
+    width: 30px;
+}
+input {
+    display: none;
+}
+
+.most_populars {
+
+    display: flex;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 100vi;
+    justify-content: space-around;
+}
+.most_populars img{
+    height: 500px;
+    width: 375px;
+}
+
+.insbx {
+    display: flex;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.otbox{
+    margin-top: 15px;
+    margin-bottom: 15px
+}
+.lsbx {
+    margin-top: 15px;
+    margin-bottom: 18px;}
